@@ -1,0 +1,11 @@
+train_data:
+  type: pandas.CSVDataset
+  filepath: data/raw/train.csv
+
+test_data:
+  type: pandas.CSVDataset
+  filepath: data/raw/test.csv
+
+metrics:
+  type: json.JSONDataset
+  filepath: models/metrics.json

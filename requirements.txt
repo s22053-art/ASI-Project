@@ -1,0 +1,14 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+jupyter
+joblib
+kedro
+kedro-datasets[pandas]
+fastapi
+uvicorn[standard]
+pydantic
+pytest
+ruff

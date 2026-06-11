@@ -1,0 +1,24 @@
+[project]
+name = "airline-satisfaction"
+version = "0.1.0"
+description = "Przewidywanie satysfakcji z lotu samolotem"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.kedro]
+package_name = "airline_satisfaction"
+project_name = "Przewidywanie satysfakcji z lotu samolotem"
+kedro_init_version = "1.3.1"
+
+[tool.kedro_telemetry]
+project_id = "c96a8128392a435e9256d013f8d38606"

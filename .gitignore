@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.env
+anaconda_projects/
+data/raw/
+models/model.joblib
+logs/
+notebooks/.ipynb_checkpoints/
+notebooks/

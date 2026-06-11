@@ -1,0 +1,11 @@
+# Opcjonalne zależności — śledzenie eksperymentów, AutoML i monitoring
+# Instalacja: pip install -r requirements-optional.txt
+
+# Śledzenie eksperymentów
+mlflow>=2.13.0
+
+# AutoML
+pycaret[full]>=3.3.0
+
+# Monitoring driftu danych (rozszerzona wersja, drift.py działa bez tego)
+evidently>=0.4.0
